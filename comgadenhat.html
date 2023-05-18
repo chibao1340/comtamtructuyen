@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+        .header{
+            width: 100%;
+            height: 85px;
+            background-color: #431615;
+        }
+        .comtam{
+          width: 200px;
+         
+        }
+        .header .tren{
+          padding: 0;
+        }
+        .header .tieude{
+          background-color: #431615;       
+        }
+        .header .tieude a{
+          color: azure;       
+        }
+        .header button {
+          background-color: rgb(246, 235, 235);
+        }
+        .giua .menugiua #chon{
+          display: flex;
+        }
+        .menugiua ul li:hover{
+          background-color: rgb(219, 178, 27);
+        }
+        .giua .menugiua .navbar li{
+           list-style-type: none;
+           padding: 20px;
+        }
+        .giua .menugiua .navbar li a{
+          text-decoration: none;
+          color: white;
+         
+        }
+        .giua .menugiua{
+          text-align: center;
+          padding: 0 12%;
+          
+        }
+        .giua{
+          background-color: #431615;
+        }
+        @media all and (max-width :768px){
+        .header{
+          width: 100%;
+        }
+        .header .tieude{
+          padding: 0 20%;
+        }
+        .header #navbarNav{
+          background-color: white;  
+        }
+        .header #navbarNav li .nav-link{
+          color: #431615;
+        }
+       
+        }
+    </style>
+</head>
+  <body>
+    <div class="header">
+        <div class="container">
+        <div class="row">
+            <div class="col col-md-3 col-lg-3">
+                <a href="index.html"><img class="comtam" src="./comtam.webp" alt=""></a>
+            </div>
+            <div class="col col-md-8 col-lg-8">
+                    <nav class="tren navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="tieude container-fluid">
+                          <a class="navbar-brand " href="./gioithieusv.html" style="font-size: 16px;">GIỚI THIỆU</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./index.html">CHUYỆN CƠM TẤM</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link " href="./thucdon.html">THỰC ĐƠN</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link " href="./index.html">CỬA HÀNG</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link " href="./index.html">TUYỂN DỤNG</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col col-md-1 col-lg-1"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="giua">
+      <div class="container">
+      <div class="menugiua">
+        <ul class="navbar">
+          <li class="nav-item">
+            <a class="nav-link  text-white" aria-current="page" href="./monchinh.html">MÓN CHÍNH</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./ankem.html">ĂN KÈM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./canhphan.html">CANH PHẦN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./giaikhat.html">GIẢI KHÁT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./common.html">CƠM MÓN</a>
+          </li>
+          <li style="background-color: rgb(219, 178, 27);" class="nav-item">
+            <a class="nav-link text-white" href="./comgadenhat.html">CƠM GÀ ĐỆ NHẤT</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="sanpham m-4">
+            <div class="row g-5">
+                <div class=" col col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="./comsuonquenguvi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h4 class="card-title">CƠM SƯỜN PHÚC LỘC THỌ</h4>
+                              <p class="card-text">39000đ</p>
+                              <a href="./chitietsanpham.html" class="btn btn-danger">ĐẶT HÀNG</a>
+                            </div>
+                          </div>
+                    </div>
+                <div class="col col-md-4 col-lg-4"> 
+                        <div class="card">
+                            <img src="./3roinguvi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h4 class="card-title">CƠM BA RỌI NGŨ VỊ</h4>
+                              <p class="card-text">42000đ</p>
+                              <a href="./chitietsanpham.html" class="btn btn-danger">ĐẶT HÀNG</a>
+                            </div>
+                          </div>
+                    </div>
+                <div class="col col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="./comgaquaymam.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h4 class="card-title">CƠM GÀ QUAY MẮM</h4>
+                              <p class="card-text">45.000đ</p>
+                              <a href="./chitietsanpham.html" class="btn btn-danger">ĐẶT HÀNG</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col col-md-12 col-lg-12"></div> 
+             <div class="row g-3">
+                <div class="col col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="./comduiganuong.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h4 class="card-title">CƠM ĐÙI GÀ NƯỚNG</h4>
+                              <p class="card-text">45.000đ</p>
+                              <a href="./chitietsanpham.html" class="btn btn-danger">ĐẶT HÀNG</a>
+                            </div>
+                          </div>
+                    </div>
+                <div class="col col-md-4 col-lg-4">
+                        <div class="card">
+                            <img src="./comsuonquenguvi.png " class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h4 class="card-title">CƠM SƯỜN QUE NGŨ VỊ</h4>
+                              <p class="card-text">65.000đ</p>
+                              <a href="./chitietsanpham.html" class="btn btn-danger">ĐẶT HÀNG</a>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  
+        </div>
+        </div>
+      </div>
+    <div class="footer p-4 bg-dark">
+        <div class="row text-white">
+           <div class="row">
+            <div class="col col-md-3 col-sm-8">
+                <p class="text-warning">Copyright © 2020 Phúc Lộc Thọ | LTD | All rights reserved.
+                </p>
+            </div>
+            <div class="col col-md-2 col-sm-8">
+                <p>Chính sách & quy định chung</p>
+            </div>
+            <div class="col col-md-1 col-sm-8">
+                <p>Chính sách giao hàng & thanh toán</p>
+            </div>
+            <div class="col col-md-1 col-sm-8">
+                <p>Chính sách bảo mật thông tin</p>
+            </div>
+            <div class="col col-md-1  col-sm-8">
+                <p>Tra cứu hoá đơn</p>
+            </div>
+            <div class="col col-md-1  col-sm-8">
+                <p>Liên hệ</p>
+            </div>
+           </div>
+            <div class="col col-md-5 col-sm-12">
+                <p>CÔNG TY CỔ PHẦN THỰC PHẨM PHÚC LỘC THỌ
+                    , GPDKKD: 0314071273 do sở KH & ĐT TP.HCM cấp ngày 01/04/2021. 
+                    Địa chỉ: 234/3 Tô Ngọc Vân,P. Linh Đông, TP. Thủ Đức, TP. HCM.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
